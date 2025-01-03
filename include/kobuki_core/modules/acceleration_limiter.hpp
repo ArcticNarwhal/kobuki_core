@@ -57,7 +57,7 @@ public:
   {}
   void init(bool enable_acceleration_limiter
     , double linear_acceleration_max_= 0.5, double angular_acceleration_max_= 3.5
-    , double linear_deceleration_max_=-0.5*1.2, double angular_deceleration_max_=-3.5*1.2)
+    , double linear_deceleration_max_=-0.5, double angular_deceleration_max_=-3.5)
   {
     is_enabled = enable_acceleration_limiter;
     linear_acceleration_max  = linear_acceleration_max_ ;
